@@ -1,12 +1,12 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Investigating Prognostic Pessimism for Depression"
+title: "Body Dissatisfaction and Depression"
 summary: ""
 authors: []
 tags: []
 categories: []
-date: 2021-01-02
+date: 2021-01-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Preregistration
-  url: https://osf.io/mu2jr/
+  url: https://osf.io/734n8/
   icon_pack: ai
   icon: osf
 
@@ -40,4 +40,4 @@ url_video: ""
 slides: ""
 ---
 
-Lorem ipsum prognostic pessimism
+Lorem ipsum body dissatisfaction

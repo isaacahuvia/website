@@ -14,7 +14,7 @@ organizations:
   url: https://www.stonybrook.edu/commcms/psychology/clinical/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Isaac Ahuvia is a PhD student in clinical psychology at Stony Brook University.
+bio: Isaac Ahuvia is a PhD student in clinical psychology at Stony Brook University
 
 # Interests to show in About widget
 interests:
@@ -39,13 +39,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: mailto:isaacahuvia@gmail.com
-#  link: '/#contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/isaacahuvia
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.com/citations?user=3vPivbUAAAAJ
+- icon: osf
+  icon_pack: ai
+  link: osf.io/c432p
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Isaac_Ahuvia
@@ -64,7 +66,5 @@ highlight_name: true
 ---
 
 Isaac Ahuvia is a PhD student in clinical psychology at Stony Brook University, studying under Dr. Jessica Schleider. His research focuses on the beliefs individuals hold about mental disorders (e.g. what causes them, how malleable they are) and how these beliefs relate to mental health outcomes.
-
-In addition to his research, Isaac lends his skills in statistical programming to ... [consulting blurb].
 
 {{< icon name="download" pack="fas" >}} {{< staticref "media/cv.pdf" "newtab" >}}Download CV{{< /staticref >}}.
