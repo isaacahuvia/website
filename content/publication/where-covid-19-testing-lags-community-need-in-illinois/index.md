@@ -19,6 +19,7 @@ authors:
   - H.
   - van Dijk
   - W.
+publication: University of Chicago Poverty Lab
 abstract: The COVID-19 pandemic is imposing uneven economic and health burdens
   on different communities in Illinois. Until a vaccine or effective therapy is
   available, intensive testing and monitoring of the disease will be necessary
@@ -42,5 +43,5 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: false
-date: 2021-05-22T16:00:00.000Z
+date: 2020-05-22T16:00:00.000Z
 ---
