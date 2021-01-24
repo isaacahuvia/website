@@ -5,24 +5,15 @@ subtitle: ""
 publication_types:
   - "2"
 authors:
-  - Bevans
-  - K.
-  - Ahuvia
-  - I.
-  - Hallock
-  - T.
-  - Mendonca
-  - R.
-  - Roth
-  - S.
-  - Forrest
-  - C.
-  - Blackwell
-  - C.
-  - Kramer
-  - J.
-  - "& Wakschlag"
-  - L.
+  - Bevans, K.
+  - Ahuvia, I.
+  - Hallock, T.
+  - Mendonca, R.
+  - Roth, S.
+  - Forrest, C.
+  - Blackwell, C.
+  - Kramer, J.
+  - Wakschlag, - L.
 publication: Quality of Life Research
 abstract: >-
   Purpose: 
@@ -50,4 +41,5 @@ image:
   focal_point: Smart
   preview_only: false
 date: 2020-01-03T17:00:00.000Z
+external_link: "https://link.springer.com/article/10.1007/s11136-019-02387-3"
 ---
