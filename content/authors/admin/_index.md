@@ -19,7 +19,7 @@ bio:
 # Interests to show in About widget
 interests:
 - Beliefs about mental disorders
-- Scalable treatments to improve mental health
+- Scalable treatments for depression
 - Evidence-based classification of mental disorders
 
 # Education to show in About widget
