@@ -42,12 +42,12 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/isaacahuvia
-- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+- icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=3vPivbUAAAAJ
 - icon: osf
   icon_pack: ai
-  link: osf.io/c432p
+  link: https://osf.io/c432p
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Isaac_Ahuvia
