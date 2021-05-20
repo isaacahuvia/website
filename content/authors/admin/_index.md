@@ -18,9 +18,9 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Beliefs about mental disorders
-- Scalable treatments for depression
-- Evidence-based classification of mental disorders
+- Causal beliefs about mental disorders
+- Scalable treatments for youth depression
+- Body dissatisfaction, eating disorders, and depression
 
 # Education to show in About widget
 education:
