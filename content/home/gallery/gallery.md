@@ -3,7 +3,7 @@ widget: blank
 headless: true
 
 # ... Put Your Section Options Here (title etc.) ...
-title: Birds
+title: Bird Photography
 subtitle:
 weight: 60  # section position on page
 design:
