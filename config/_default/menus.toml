@@ -29,3 +29,8 @@
    name = "CV"
    url = "media/cv.pdf"
    weight = 50
+
+[[main]]
+   name = "📷"
+   url = "#gallery"
+   weight = 99
