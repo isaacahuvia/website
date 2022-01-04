@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Body Dissatisfaction and Depression"
-summary: "Body dissatisfaction is a significant contributor to depression among adolescents, and may contribute to the gender gap in depression that emerges in that period. Despite this, the effect of body dissatisfaction interventions on depression has remained largely unknown. Working with Dr. Jessica Schleider and the Lab for Scalable Mental Health, Isaac has conducted a meta-analysis on this subject, revealing that body dissatisfaction interventions have significant effects on depression outcomes - even when they don't target depression directly. Isaac is continuing this line of work by developing a single-session intervention for teens experiencing both body dissatisfaction and depression"
+summary: "Body dissatisfaction is a significant contributor to depression among adolescents, and may contribute to the gender gap in depression that emerges in that period. Despite this, the effect of body dissatisfaction interventions on depression has remained largely unknown. Working with Dr. Jessica Schleider and the Lab for Scalable Mental Health, Isaac has conducted a meta-analysis on this subject, revealing that body dissatisfaction interventions have significant effects on depression outcomes - even when they don't target depression directly. Isaac is continuing this line of work by developing a single-session intervention for teens experiencing both body dissatisfaction and depression."
 authors: []
 tags: []
 categories: []

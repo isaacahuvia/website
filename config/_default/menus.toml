@@ -31,6 +31,6 @@
    weight = 50
 
 [[main]]
-   name = "📷"
+   name = "Bird Photography"
    url = "#gallery"
    weight = 99

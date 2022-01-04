@@ -16,7 +16,6 @@ authors:
   - Lauren Wakschlag
 publication: Quality of Life Research
 abstract: 
-  An analysis to identify and evaluate methods for assessing pediatric patient-reported outcome (PRO) data quality at the individual level.
 draft: false
 featured: false
 image:
