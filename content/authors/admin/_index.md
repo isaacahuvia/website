@@ -67,4 +67,4 @@ highlight_name: true
 
 Isaac Ahuvia is a PhD student in clinical psychology at Stony Brook University, studying under Dr. Jessica Schleider in the Lab for Scalable Mental Health. His research focuses on the beliefs individuals hold about mental disorders (e.g. what causes them, how malleable they are) and how these beliefs relate to mental health outcomes. Prior to joining the Lab for Scalable Mental Health, Isaac studied Sociology at the University of Michigan and conducted research at the University of Chicago Inclusive Economy Lab and Northwestern Feinberg School of Medicine. 
 
-{{< icon name="download" pack="fas" >}} {{< staticref "media/Isaac Ahuvia CV.pdf" "newtab" >}}Download CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} {{< staticref "media/Isaac Ahuvia CV.pdf" "newtab" >}}Download CV{{< /staticref >}}
