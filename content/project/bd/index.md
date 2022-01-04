@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Body Dissatisfaction and Depression"
-summary: "Body dissatisfaction is a significant contributor to depression among adolescents. It is particularly common among adolescent girls, who are at particular risk for depression. Despite this, no study has systematically examined the effect of body dissatisfaction interventions on depression outcomes. Working with Dr. Jessica Schleider and the Lab for Scalable Mental Health, Isaac is working to quantify the effects of such interventions on depression in adolescents. Ultimately, we hope to understand the potential of targeting body dissatisfaction to prevent depression in adolescence and to combat the gender gap that emerges in this period."
+summary: "Body dissatisfaction is a significant contributor to depression among adolescents, and may contribute to the gender gap in depression that emerges in that period. Despite this, the effect of body dissatisfaction interventions on depression has remained largely unknown. Working with Dr. Jessica Schleider and the Lab for Scalable Mental Health, Isaac has conducted a meta-analysis on this subject, revealing that body dissatisfaction interventions have significant effects on depression outcomes - even when they don't target depression directly. Isaac is continuing this line of work by developing a single-session intervention for teens experiencing both body dissatisfaction and depression"
 authors: []
 tags: []
 categories: []
@@ -22,10 +22,14 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Preregistration
-  url: https://osf.io/734n8/
+- name: Link to meta-analysis, published in the International Journal of Eating Disorders
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/eat.23659
+  icon_pack: fas
+  icon: book-open
+- name: Link to a free pre-print of the meta-analysis
+  url: https://psyarxiv.com/6rycq
   icon_pack: ai
-  icon: osf
+  icon: psyarxiv
 
 url_code: ""
 url_pdf: ""

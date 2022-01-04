@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Investigating Prognostic Pessimism for Depression"
-summary: "Biomedical explanations for mental disorders - where disorders are seen as the results of genetic and biological abnormalities - are increasingly common. The causes that people assign to mental disorders have consequences for treatment preferences, social stigma, and even how permanent they believe their disorders to be (prognostic pessimism). Working with Dr. Jessica Schleider and the Lab for Scalable Mental Health, Isaac is working to better understand the beliefs adolescents have about depression, how these beliefs relate to mental health outcomes, and how they can be augmented to improve these outcomes."
+summary: "Biomedical explanations for mental disorders - where disorders are seen as the results of genetic and biological abnormalities - are increasingly common. The causes that people assign to mental disorders have consequences for treatment preferences, social stigma, and even how permanent they believe their disorders to be. Working with Dr. Jessica Schleider and the Lab for Scalable Mental Health, Isaac is working to better understand the beliefs adolescents have about depression, how these beliefs relate to mental health outcomes, and how they can be augmented to improve these outcomes."
 authors: []
 tags: []
 categories: []
@@ -22,7 +22,7 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-- name: Preregistration
+- name: Link to pre-registration
   url: https://osf.io/mu2jr/
   icon_pack: ai
   icon: osf
