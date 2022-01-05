@@ -1,5 +1,5 @@
 ---
-title: Secondary Effects of Body Dissatisfaction Interventions on Adolescent Depressive Symptoms: A Meta-Analysis
+title: "Secondary Effects of Body Dissatisfaction Interventions on Adolescent Depressive Symptoms: A Meta-Analysis"
 publication_types:
   - "4"
 authors: 
