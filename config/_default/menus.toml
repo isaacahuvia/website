@@ -9,28 +9,33 @@
   weight = 10
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Research"
+  url = "#research"
   weight = 20
 
 [[main]]
-  name = "Publications"
-  url = "#publications"
+  name = "Teaching"
+  url = "#teaching"
   weight = 30
+
+[[main]]
+  name = "Consulting"
+  url = "#consulting"
+  weight = 40
+
+[[main]]
+   name = "Photography"
+   url = "#gallery"
+   weight = 50
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 40
+  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.
 [[main]]
    name = "CV"
    url = "media/Isaac Ahuvia CV.pdf"
-   weight = 50
-
-[[main]]
-   name = "📷"
-   url = "#gallery"
-   weight = 99
+   
