@@ -41,4 +41,4 @@ feature:
 #  description: "90%"
 ---
 
-*Consulting services are available for research teams and anybody else interested in making the most of their data. For more information, please contact me using the email at the bottom of this page.*
+Consulting services are available for research teams and anybody else interested in making the most of their data. For more information, please contact me using the email at the bottom of this page.
