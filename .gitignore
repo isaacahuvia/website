@@ -6,3 +6,6 @@
 public/
 jsconfig.json
 .Rproj.user
+
+# R
+.Rhistory
