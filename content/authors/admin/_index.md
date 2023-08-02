@@ -18,14 +18,14 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Beliefs about mental disorders
-- The social construction of mental illness
-- Scalable treatments for depression in youth
+- Beliefs about mental illness
+- Self-labeling (i.e., identifying with mental illness labels)
+- Scalable interventions for youth mental health problems
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD Student in Clinical Psychology
+  - course: PhD Candidate in Clinical Psychology
     institution: Stony Brook University
   - course: M.A. in Psychology
     institution: Stony Brook University
@@ -68,6 +68,6 @@ email: ""
 highlight_name: true
 ---
 
-Isaac Ahuvia is a PhD student in clinical psychology at Stony Brook University, studying under Dr. Jessica Schleider in the Lab for Scalable Mental Health. His research focuses on the beliefs individuals hold about mental disorders (e.g. what causes them, how malleable they are), how these beliefs come about, and the consequences of these beliefs for mental health outcomes. Prior to joining the Lab for Scalable Mental Health, Isaac studied sociology at the University of Michigan and conducted research at the University of Chicago Inclusive Economy Lab and Northwestern University's Feinberg School of Medicine. 
+Isaac Ahuvia is a PhD candidate in clinical psychology at Stony Brook University, studying under Dr. Jessica Schleider in the Lab for Scalable Mental Health. His research investigates how people understand mental illness (e.g., What causes depression? Am I depressed?) and the consequences of these understandings for mental health outcomes. He is also the creator and instructor of an undergraduate course on the social construction of mental illness. Prior to joining the Lab for Scalable Mental Health, Isaac studied sociology at the University of Michigan and conducted research at the University of Chicago Inclusive Economy Lab and Northwestern University's Feinberg School of Medicine. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "media/Isaac Ahuvia CV.pdf" "newtab" >}}Download CV{{< /staticref >}}
