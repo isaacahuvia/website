@@ -11,11 +11,18 @@ design:
   columns: '1'
 ---
 
-## Adolescents' beliefs about depression
-Isaac and his collaborators have conducted research with depressed adolescents exploring their beliefs about what causes depression, how permanent depression is, and how these beliefs relate to clinical variables. [One study](https://psyarxiv.com/q43pd/) found that depressed adolescents who have more pessimistic beliefs about the duration of depression are more likely to use maladaptive coping strategies. This work has also [explored the factors](https://psyarxiv.com/yf6vq) that adolescents believe cause depression, as well as the importance of those beliefs. [Additional work](https://psyarxiv.com/hs98z) has examined the implications of adolescents' beliefs about what symptoms constitute depression. 
+For a complete and up-to-date listing of published and pre-registered projects, see Isaac's [Google Scholar](https://scholar.google.com/citations?user=3vPivbUAAAAJ) and [OSF](https://osf.io/c432p/) pages. For more information on ongoing studies, feel free to reach out on [Twitter](https://twitter.com/isaacahuvia) or [email](mailto:isaacahuvia@gmail.com).
 
-## Body dissatisfaction and depression
-Isaac has led [a meta-analysis](https://psyarxiv.com/6rycq) finding that interventions targeting body dissatisfaction in youth had significant effects on those youths' depression symptoms - even when this was not a target of intervention. This work has inspired a single-session intervention targeting both body dissatisfaction and depression in adolescents, which is [under development](https://psyarxiv.com/4ywe5/).
+## Notable Publications
 
-## Additional research
-Further projects have explored [machine learning approaches for treatment selection among single-session interventions](https://psyarxiv.com/nekhw/), [loss of mental health care among college students during the COVID-19 pandemic](https://psyarxiv.com/48q7p) and [the potential of teletherapy to meet these new demands](https://psyarxiv.com/8unfx/), and more. For a complete list of publications and ongoing projects, click here: [CV](https://www.isaacahuvia.com/media/Isaac%20Ahuvia%20CV.pdf).
+Ahuvia, I., Sotomayor, I., Kwong, K., Lam, F., Mirza, A., & Schleider, J. (in press). Studying Causal Beliefs About Mental Illness: A Scoping Review. *Social Science and Medicine*. https://psyarxiv.com/x58pw
+
+Ahuvia, I., Schleider, J., Kneeland, E., Moser, J., & Schroder, H. (2024). Depression Self-Labeling in U.S. College Students: Associations with Perceived Control and Coping Strategies. *Journal of Affective Disorders, 351*. 202-210. https://doi.org/10.1016/j.jad.2024.01.229 https://psyarxiv.com/jqrhu
+
+Pinder, J., Ahuvia, I., Chen, S., & Schleider, J. (2024). Beliefs About Depression Relate to Active and Avoidant Coping in High-Symptom Adolescents. *Journal of Affective Disorders, 346*. 299-302. https://doi.org/10.1016/j.jad.2023.11.026 https://psyarxiv.com/q43pd 
+
+Ahuvia, I., Mullarkey, M., Sung, J., Fox, K., & Schleider, J. (2023). Evaluating a Treatment Selection Approach for Online Single-Session Interventions for Adolescent Depression. *Journal of Child Psychology and Psychiatry, 64(12)*, 1679-1688. https://doi.org/10.1111/jcpp.13822 https://psyarxiv.com/nekhw
+
+Ahuvia, I., & Schleider, J. (2023). Potential Harms from Emphasizing Individual Factors Over Structural Factors in Cognitive Behavioral Therapy with Stigmatized Groups. *The Behavior Therapist*. https://services.abct.org/i4a/doclibrary/getfile.cfm?doc_id=181 https://psyarxiv.com/n65fj 
+
+Smith, A., Ahuvia, I., Ito, S., & Schleider, J. (2023). A Mixed-Methods Evaluation of a Novel Single-Session Intervention for Body Dissatisfaction and Depression in Adolescents. *International Journal of Eating Disorders, 56(8)*, 1554-1569. https://doi.org/10.1002/eat.23976  https://psyarxiv.com/4ywe5 
