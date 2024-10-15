@@ -18,9 +18,9 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Beliefs about mental illness
-- Self-labeling (i.e., identifying with mental illness labels)
-- Scalable interventions for youth mental health problems
+- Cultural beliefs about mental illness
+- Mental illness identity
+- Healthier ways to think and talk about mental illness
 
 # Education to show in About widget
 education:
