@@ -11,9 +11,9 @@ design:
   columns: '1'
 ---
 
-### **PSY 339: The Social Construction of Mental Illness**
+### **The Social Construction of Mental Illness**
 
-This original course, offered by Stony Brook's Department of Psychology, explores the way that mental illness is constructed and the consequences of this construction on affected individuals. Topics include different ways of defining mental illness, diagnosis, stigma, medicalization, and more.
+This original course, currently offered as a junior tutorial in the Harvard University Department of Psychology (and formerly at Stony Brook University), explores the way that mental illness is constructed and the consequences of this construction on affected individuals. Topics include different ways of defining mental illness, diagnosis, stigma, medicalization, and more.
 
 ### **R for Statistical Programming**
 

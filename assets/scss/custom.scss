@@ -1,5 +1,13 @@
 .gallery a[data-fancybox] img {
-    width: 33%;
-    height: auto;
+    width: auto;
+    height: 200px;
     border-radius: 5%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
