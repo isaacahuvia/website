@@ -38,7 +38,7 @@ MENU = [
 HOME_DESCRIPTION = (
     "Isaac Ahuvia is a postdoctoral fellow at Northwestern University and an instructor at "
     "Harvard University. His research investigates mental illness identity, the online spaces "
-    "that shape it, and healthier ways of understanding mental health and illness."
+    "that shape it, and how to promote healthier understandings of mental health and illness."
 )
 
 # source file, output file, address, title, menu item, class of <main>, description, listed in search engines
