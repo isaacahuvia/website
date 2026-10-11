@@ -202,6 +202,8 @@ button.button { height: 44px; margin: 0; padding: 0 16px; cursor: pointer; }
 .group-year { flex: 0 0 72px; font-size: 21px; line-height: 26px; font-weight: 600; }
 .group-kind {
   flex: 0 0 72px;
+  min-width: 0;
+  white-space: nowrap; /* a label wider than the column runs into the gap; it never breaks */
   font-family: var(--sans);
   font-size: 13px;
   line-height: 24px;
