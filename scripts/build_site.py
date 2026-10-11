@@ -47,7 +47,7 @@ PAGES = [
     ("research.html", "research/index.html", "/research/", "Research", "research", "wrap",
      "Peer-reviewed publications, other publications, manuscripts under review and work in progress by Isaac Ahuvia.", True),
     ("press.html", "press/index.html", "/press/", "Press", "press", "wrap",
-     "Press coverage of Isaac Ahuvia's research, with interviews and op eds.", True),
+     "Press coverage of Isaac Ahuvia's research, with interviews and op-eds.", True),
     ("teaching.html", "teaching/index.html", "/teaching/", "Teaching", "teaching", "wrap",
      "Courses taught by Isaac Ahuvia at Harvard University and Stony Brook University.", True),
     ("photography.html", "photography/index.html", "/photography/", "Photography", "photography", "wrap wrap--photos",
