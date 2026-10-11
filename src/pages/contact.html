@@ -1,0 +1,21 @@
+<h1 class="page-title">Contact</h1>
+
+<form class="form" name="contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+<p hidden><label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+<input type="hidden" name="subject" value="Message from the contact form on isaacahuvia.com">
+<div class="field">
+<label for="contact-name">Name</label>
+<input class="input" id="contact-name" name="name" type="text" autocomplete="name" required>
+</div>
+<div class="field">
+<label for="contact-email">Email</label>
+<input class="input" id="contact-email" name="email" type="email" autocomplete="email" required>
+</div>
+<div class="field">
+<label for="contact-message">Message</label>
+<textarea class="input input--area" id="contact-message" name="message" rows="7" required></textarea>
+</div>
+<div>
+<button class="button" type="submit">Send message</button>
+</div>
+</form>

@@ -1,0 +1,5 @@
+# Addresses from the previous version of the site
+/authors/*      /            301
+/author/*       /            301
+/home/*         /            301
+/publication/*  /research/   301

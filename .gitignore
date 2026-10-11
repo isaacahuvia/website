@@ -1,11 +1,11 @@
-# IDEs
+# Editors and operating systems
 .idea/
+.vscode/
+.DS_Store
 
-# Hugo
-/resources/
-public/
-jsconfig.json
-.Rproj.user
+# Python
+__pycache__/
 
 # R
 .Rhistory
+.Rproj.user

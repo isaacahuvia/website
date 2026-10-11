@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+{{robots}}<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/SourceSerif4-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/SourceSans3-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+{{social}}</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="bar">
+<header class="bar-in">
+<a class="brand" href="/">Isaac Ahuvia</a>
+<nav class="nav" aria-label="Site">
+{{nav}}
+</nav>
+</header>
+</div>
+
+<main id="main" class="{{main_class}}">
+
+{{content}}
+</main>
+
+<div class="foot">
+<footer class="foot-in">
+<div class="copyright">© {{year}} Isaac Ahuvia</div>
+<a href="/contact/">Contact</a>
+<a href="https://scholar.google.com/citations?user=3vPivbUAAAAJ">Google Scholar</a>
+<a href="https://osf.io/c432p">OSF</a>
+<a href="https://github.com/isaacahuvia">GitHub</a>
+<a href="https://www.linkedin.com/in/isaacahuvia">LinkedIn</a>
+</footer>
+</div>
+
+<script>
+// On a narrow screen the menu scrolls sideways: start with the current page's item in view.
+(function () {
+  var menu = document.querySelector(".nav");
+  var current = menu && menu.querySelector("[aria-current]");
+  if (!current) return;
+  var over = current.getBoundingClientRect().right - menu.getBoundingClientRect().right;
+  if (over > 0) menu.scrollLeft += over;
+})();
+</script>
+</body>
+</html>
