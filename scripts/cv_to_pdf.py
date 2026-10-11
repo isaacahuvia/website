@@ -4,7 +4,7 @@
 Usage: python3 cv_to_pdf.py <cv.docx> <out.pdf>
 
 The Word file is never changed. The conversion works on a temporary copy and
-makes five adjustments so that LibreOffice lays the document out the way
+makes six adjustments so that LibreOffice lays the document out the way
 Word does:
 
 1. Fonts embedded in the .docx (the bullet font) are made available to
@@ -23,6 +23,10 @@ Word does:
    (as Google Docs writes them) become ordinary bullets (U+2022) in the text
    font. Word shows them as small bullets; LibreOffice otherwise substitutes
    a large glyph from another font, which also makes those lines taller.
+6. A field with no stored result (the page numbers in the footer, as Google
+   Docs writes them) is given a result that carries the field's own font and
+   size. Word shows such a number in the font set on the field; LibreOffice
+   otherwise falls back to the document's default font (Calibri).
 
 Times New Roman is replaced by Liberation Serif, which has the same metrics.
 """
@@ -67,6 +71,34 @@ def patch_document(xml: str) -> tuple[str, dict]:
     return "".join(out), notes
 
 
+# One run holding a whole field with nothing between "separate" and "end".
+EMPTY_FIELD = re.compile(
+    r"<w:r(?: [^>]*)?>(<w:rPr>(?:(?!</w:rPr>).)*</w:rPr>)?"
+    r'<w:fldChar w:fldCharType="begin"/>'
+    r"(<w:instrText[^>]*>[^<]*</w:instrText>)"
+    r'<w:fldChar w:fldCharType="separate"/>'
+    r'<w:fldChar w:fldCharType="end"/></w:r>',
+    re.S,
+)
+
+
+def patch_fields(xml: str) -> tuple[str, int]:
+    """Give empty fields a result run with the field's own character formatting."""
+
+    def fix(m: re.Match) -> str:
+        rpr, instr = m.group(1) or "", m.group(2)
+        run = lambda inner: f"<w:r>{rpr}{inner}</w:r>"
+        return (
+            run('<w:fldChar w:fldCharType="begin"/>')
+            + run(instr)
+            + run('<w:fldChar w:fldCharType="separate"/>')
+            + run("<w:t>1</w:t>")
+            + run('<w:fldChar w:fldCharType="end"/>')
+        )
+
+    return EMPTY_FIELD.subn(fix, xml)
+
+
 LEVEL = re.compile(r"<w:lvl [^>]*>.*?</w:lvl>", re.S)
 
 
@@ -104,6 +136,11 @@ def main() -> int:
                 text, n = patch_numbering(data.decode("utf-8"))
                 data = text.encode("utf-8")
                 print("bullet levels adjusted:", n)
+            if re.fullmatch(r"word/(document|header\d*|footer\d*)\.xml", item.filename):
+                text, n = patch_fields(data.decode("utf-8"))
+                if n:
+                    data = text.encode("utf-8")
+                    print(f"fields given their own font in {item.filename}:", n)
             if item.filename.startswith("word/fonts/") and item.filename.lower().endswith((".ttf", ".otf")):
                 (fonts / pathlib.Path(item.filename).name).write_bytes(data)
             zout.writestr(item, data)
