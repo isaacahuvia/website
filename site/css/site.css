@@ -315,18 +315,6 @@ button.button { height: 44px; margin: 0; padding: 0 16px; cursor: pointer; }
 .rl-head { display: flex; flex-direction: column; gap: 8px; }
 .rl-by { font-family: var(--sans); font-size: 14px; line-height: 20px; color: var(--ink-2); }
 .rl-intro { margin-top: 24px; max-width: 680px; display: flex; flex-direction: column; gap: 16px; }
-.rl-mark { font-size: 12px; line-height: 0; }
-.rl-mark a { text-decoration: none; }
-.rl-jump {
-  margin-top: 24px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 24px;
-  font-family: var(--sans);
-  font-size: 14px;
-  line-height: 20px;
-}
-.rl-jump a { padding: 12px 0; }
 .rl-section { margin-top: 40px; max-width: 680px; scroll-margin-top: 16px; }
 .rl-band { padding: 12px 16px; font-size: 21px; line-height: 26px; font-weight: 600; }
 .rl-band--honey { background: var(--honey); }

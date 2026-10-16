@@ -18,8 +18,8 @@ What the doc is expected to look like (the Social Construction list does):
   description;
 - readings marked with a left border (the green bar in the doc); paragraphs
   without one are shown as ordinary text.
-Comments on the doc are ignored. Footnotes become notes at the foot of the
-page. The PDF loses its first page when that page carries only the doc's tab
+Comments and footnotes on the doc are left off the page (they stay in the
+PDF). The PDF loses its first page when that page carries only the doc's tab
 name, as Google Docs exports it.
 
 Needs BeautifulSoup (bs4) and PyMuPDF (pymupdf).
@@ -55,11 +55,7 @@ def runs(p, notes):
         if node.name == "sup":
             a = node.find("a")
             href = a.get("href", "") if a else ""
-            if href.startswith("#ftnt"):  # a footnote: number it
-                n = len(notes) + 1
-                notes.append(href[1:])
-                out.append(f'<sup class="rl-mark"><a href="#note-{n}" id="note-ref-{n}">{n}</a></sup>')
-            continue  # comment marks ([a], [b], ...) are dropped
+            continue  # footnote marks and comment marks ([a], [b], ...) are dropped
         if node.name == "a":
             text = html.escape(node.get_text(), quote=False)
             out.append(f'<a href="{html.escape(clean_url(node["href"]))}">{text}</a>')
@@ -169,10 +165,6 @@ def page_html(slug, title, byline, intro, sections, notes):
         '<div class="rl-intro">',
         *[f"<p>{p}</p>" for p in intro],
         "</div>",
-        "",
-        '<nav class="rl-jump" aria-label="Sections">',
-        *[f'<a href="#{s["id"]}">{re.sub(r":.*", "", s["title"]) if s["title"].startswith("Unit") else s["title"]}</a>' for s in sections],
-        "</nav>",
     ]
     for i, s in enumerate(sections):
         band = BANDS[min(i, len(BANDS) - 1)]
