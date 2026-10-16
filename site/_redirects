@@ -3,3 +3,6 @@
 /author/*       /            301
 /home/*         /            301
 /publication/*  /research/   301
+
+# Reading lists: short addresses for the PDFs in /media/
+/social-construction-reading-list  /media/social-construction-reading-list.pdf  200
