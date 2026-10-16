@@ -309,7 +309,41 @@ button.button { height: 44px; margin: 0; padding: 0 16px; cursor: pointer; }
 .course--first { margin-top: 40px; border-top: 1px solid var(--ink); gap: 24px; }
 .course--other { border-top: 1px solid var(--rule); gap: 16px; }
 .course-intro { max-width: 680px; display: flex; flex-direction: column; gap: 8px; }
-.course-link { font-family: var(--sans); font-size: 14px; line-height: 20px; }
+.course-link { display: flex; flex-wrap: wrap; gap: 0 24px; font-family: var(--sans); font-size: 14px; line-height: 20px; }
+
+/* Reading lists */
+.rl-head { display: flex; flex-direction: column; gap: 8px; }
+.rl-by { font-family: var(--sans); font-size: 14px; line-height: 20px; color: var(--ink-2); }
+.rl-intro { margin-top: 24px; max-width: 680px; display: flex; flex-direction: column; gap: 16px; }
+.rl-mark { font-size: 12px; line-height: 0; }
+.rl-mark a { text-decoration: none; }
+.rl-jump {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 24px;
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 20px;
+}
+.rl-jump a { padding: 12px 0; }
+.rl-section { margin-top: 40px; max-width: 680px; scroll-margin-top: 16px; }
+.rl-band { padding: 12px 16px; font-size: 21px; line-height: 26px; font-weight: 600; }
+.rl-band--honey { background: var(--honey); }
+.rl-band--rose { background: var(--rose); }
+.rl-band--celadon { background: var(--celadon); }
+.rl-band--pale { background: #E3EFEA; }
+.rl-band--rule { background: var(--rule); }
+.rl-topic { margin-top: 28px; scroll-margin-top: 16px; }
+.rl-topic-head { font-size: 17px; line-height: 24px; font-weight: 600; }
+.rl-desc { margin-top: 4px; font-family: var(--sans); font-size: 14px; line-height: 20px; color: var(--ink-2); }
+.rl-readings { margin-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+.rl-readings li { padding-left: 24px; text-indent: -24px; font-size: 16px; line-height: 25px; overflow-wrap: anywhere; }
+.rl-text { margin-top: 20px; }
+.rl-section > .rl-text:first-of-type { margin-top: 24px; }
+.rl-notes { margin-top: 48px; padding-top: 16px; max-width: 680px; border-top: 1px solid var(--rule); font-family: var(--sans); font-size: 13px; line-height: 18px; color: var(--ink-2); }
+.rl-notes ol { margin: 0; padding-left: 20px; }
+.rl-notes li a[aria-label] { text-decoration: none; }
 .table-wrap { max-width: 680px; overflow-x: auto; }
 .table {
   width: 100%;

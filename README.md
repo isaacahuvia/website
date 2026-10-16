@@ -43,6 +43,20 @@ finds the newest version, converts it with `scripts/cv_to_pdf.py`, checks the
 result and commits it to `site/media/Isaac Ahuvia CV.pdf`. The file name never
 changes, so links to the CV keep working.
 
+## Reading lists
+
+A reading list is written as a Google Doc and published twice: as a page of the
+site and as a PDF. Export the doc as HTML and as PDF, then run
+
+    python3 scripts/reading_list.py social-construction-reading-list doc.html doc.pdf
+    python3 scripts/build_site.py
+
+The first command writes `src/pages/<name>.html` and `site/media/<name>.pdf`
+(it needs `bs4` and `pymupdf`); the second builds the page at `/<name>/`.
+`scripts/reading_list.py` describes what it expects of the doc. A new list
+also needs one line in `PAGES` in `scripts/build_site.py` and links from the
+Teaching page.
+
 ## The contact form
 
 The form on `/contact/` is a Netlify form named `contact` with the fields
