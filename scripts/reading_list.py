@@ -202,12 +202,22 @@ def main():
     out = ROOT / "src" / "pages" / f"{slug}.html"
     out.write_text(page_html(slug, title, byline, intro, sections, notes), encoding="utf-8")
     pages = make_pdf(doc_pdf, ROOT / "site" / "media" / f"{slug}.pdf", title)
-    counts = [(re.sub(r"<[^>]+>", "", s["title"]), len(s["topics"]),
-               sum(len(t["items"]) for t in s["topics"]) + len(s["items"])) for s in sections]
     print(f"title: {title}\nbyline: {byline}\nintro paragraphs: {len(intro)}\nnotes: {notes}")
-    for c in counts:
-        print("  section:", c)
     print(f"wrote {out.relative_to(ROOT)} and site/media/{slug}.pdf ({pages} pages)")
+    # Citations (readings) per section and topic; sections without numbered topics
+    # (e.g. teaching resources) are listed but left out of the total.
+    plain = lambda t: re.sub(r"<[^>]+>", "", t)
+    n = lambda items: sum(kind == "reading" for kind, _ in items)
+    total = 0
+    print("\ncitations:")
+    for s in sections:
+        count = n(s["items"]) + sum(n(t["items"]) for t in s["topics"])
+        if s["topics"]:
+            total += count
+        print(f"  {plain(s['title'])}: {count}" + ("" if s["topics"] else " (not in total)"))
+        for t in s["topics"]:
+            print(f"    {plain(t['title'])}: {n(t['items'])}")
+    print(f"  total: {total}")
 
 
 if __name__ == "__main__":
